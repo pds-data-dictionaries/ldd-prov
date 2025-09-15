@@ -7,20 +7,12 @@
    potentially mysterious cases.
 -->
 
-# {dictionary name} ({prefix:}) {"Discipline" or "Local"} Dictionary
-<!-- EXAMPLES
-   Spectral (sp:) Discipline Dictionary
-   DART Mission (dart:) Local Dictionary
--->
+# Provenance (prov:) Discipline Dictionary
 
-The {dictionary name} dictionary provides classes and attributes for
-{brief functional description}
+The Provenance dictionary provides classes and attributes to document and preserve the history, context, and authenticity of digital objects.
 
 ### Steward
-{steward name} ({steward GitHub handle}), {steward node}
-<!-- EXAMPLE
-     Anne Raugh (@acraugh), Small Bodies Node (SBN)
--->
+Steve Hughes (@jshughes), Engineering Node (EN)
 
 # Documentation
 
@@ -28,7 +20,7 @@ The {dictionary name} dictionary provides classes and attributes for
 does not, edit the sentence and link accordingly. -->
 The User's Guide and detailed documentation for using this dictionary in
 label design and processing
-are located at https://pds-data-dictionaries.github.io/{repo id}.
+are located at https://pds-data-dictionaries.github.io/ldd-prov.
 <!-- EXAMPLE
      are located at https://pds-data-dictionaries.github.io/ldd-template.
 -->
@@ -55,7 +47,7 @@ are located at https://pds-data-dictionaries.github.io/{repo id}.
        * Review the [Change Log] (ChangeLog.md)
        * Review the [Change Log] (src/CHANGELOG.md)
 -->     
-* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/#{dictionary prefix})
+* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/#prov)
 * On [GitHub](../../releases/latest)
 * Review the [Change log]({change log file name})
 
@@ -92,7 +84,7 @@ GitHub repo URL.-->
 
 There is a common place to request enhancements and report problems for
 any PDS-curated dictionary - the [PDS4 Issue Repo](https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues/new/choose).
-Search for the \[{repo id}\] update request block and click the green
+Search for the \[ldd-prov\] update request block and click the green
 "Get Started" button.
 
 ## Contribute Code or documentation
@@ -129,7 +121,7 @@ You will need to install *[LDDTool]* (https://nasa-pds.github.io/pds4-informatio
 you can manually run [LDDTool](https://nasa-pds.github.io/pds4-information-model/model-lddtool/index.html) on the IngestLDD using the following command:
 
 ```
-lddtool -lpsnJ {IngestLDD file name}.xml
+lddtool -lpsnJ PDS4_PROV_IngestLDD.xml
 ```
 
 # Generating Namespace Documentation
