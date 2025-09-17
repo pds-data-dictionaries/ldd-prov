@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="PDS4_PROV_1O00_1200.sch" 
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Observational
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:prov="http://pds.nasa.gov/pds4/prov/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd
+    http://pds.nasa.gov/pds4/prov/v1 PDS4_PROV_1O00_1200.xsd">
+ 
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</logical_identifier>  
+        <version_id>2.0</version_id>                                                                                                  
+        <title>2019-07-02T01:03 to 2019-07-03T01:42 IFG Magnetometer Mars Filtered 0.2Hz Ground Generated Calibrated Data</title>
+        <information_model_version>1.24.0.0</information_model_version>
+        <product_class>Product_Observational</product_class>
+        <Citation_Information>
+            <!--
+            <author_list>Russell, C. T.; Joy, S. P.</author_list>
+            -->
+            <publication_year>2020</publication_year>
+            <keyword>mag</keyword>
+            <description>
+                InSight low time resolution 0.2 Hz calibrated IFG magnetic 
+                field data from 2019-07-02T01:03 to 2019-07-03T01:42 acquired 
+                on the surface of Mars. These data were created on the ground
+                by FIR filtering and decimating 2 Hz calibrated data. 
+            </description>
+            <List_Author>
+                <Person>
+                    <display_full_name>Louis A. Frank</display_full_name>
+                    <given_name>Louis A.</given_name>
+                    <family_name>Frank</family_name>
+                    <person_orcid>http://orcid.org/0000-0001-5109-0000</person_orcid>
+                    <sequence_number>1</sequence_number>                                           
+                </Person>
+                <Person>
+                    <display_full_name>Kent L. Ackerson</display_full_name>
+                    <given_name>Kent L.</given_name>
+                    <family_name>Ackerson</family_name>
+                    <sequence_number>2</sequence_number>                                           
+                </Person>
+            </List_Author>            
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2020-07-01</modification_date>
+                <version_id>2.0</version_id>
+                <description>Release 3 files redelivered to add TLST data column are correct error in MLST data values</description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2020-01-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version, release 3</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2019-07-02T01:03:24Z</start_date_time>
+            <stop_date_time>2019-07-03T01:42:57Z</stop_date_time>
+        </Time_Coordinates>
+        <Primary_Result_Summary>
+            <purpose>Science</purpose>
+            <processing_level>Calibrated</processing_level>
+            <description>
+                Data were filtered and resampled to 2Hz resolution onboard the spacecraft
+                before downlink. The data were converted to physical units and corrected
+                for temperature variations in the sensor gains and zero-levels. After 
+                calibration, the data were FIR filtered again on the ground and resampled
+                to 0.2 Hz in order to provide a continuous record of the surface field
+                at this base sampling rate.
+            </description>
+            <Science_Facets>
+                <discipline_name>Fields</discipline_name>
+                <facet1>Magnetic</facet1>
+                <facet2>Background</facet2>
+            </Science_Facets>
+        </Primary_Result_Summary>
+        <Investigation_Area>
+            <name>InSight</name>
+            <type>Mission</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:mission.insight</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <Observing_System_Component>
+                <name>InSight Fluxgate Magnetometer</name>
+                <type>Instrument</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument:apss-ifg.insight</lid_reference>
+                    <reference_type>is_instrument</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>Mars</name>
+            <type>Planet</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+                <reference_type>data_to_target</reference_type>
+            </Internal_Reference>
+        </Target_Identification>
+        <Mission_Area>
+        </Mission_Area>
+        <Discipline_Area>
+            <prov:Provenance>
+                <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
+                <prov:description>Product LID change due to change in product start/stop times (due to reprocessing with a new SCLK kernel).</prov:description>
+                <prov:Provenance_Entities>
+                    <prov:Entity>
+                        <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
+                        <prov:local_id>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:local_id>
+                        <prov:description>New LID supersedes old LID.</prov:description>
+
+                        <prov:Attributes>
+                            <prov:attribute>Supersedes</prov:attribute>
+                            <!-- FAIL - must start-with "urn:nasa:pds"; not "urn2..." -->
+                            <prov:value>urn2:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t011217-20190703t015130-gpt2hz</prov:value>                            
+                        </prov:Attributes>                   
+                        <prov:Attributes>
+                            <prov:attribute>Reason</prov:attribute>
+                            <!-- FAIL - must be one of the enumerated values: ('Replacement', 'Duplication', 'Merged', 'Obsolescence', 'Policy') -->
+                            <prov:value>Duplication2</prov:value>
+                        </prov:Attributes>
+                    </prov:Entity>
+                </prov:Provenance_Entities>
+            </prov:Provenance>
+        </Discipline_Area>
+    </Observation_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:insight-ifg-mars:browse:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</lid_reference>
+            <reference_type>data_to_browse</reference_type>
+            <comment>PNG plot of the calibrated IFG data in this file.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:insight-ifg-mars:document:insight-ifg-sis</lid_reference>
+            <reference_type>data_to_document</reference_type>
+            <comment>
+               This document describes the IFG data processing and the structure 
+               of the various data files in this archive.
+            </comment>
+        </Internal_Reference>        
+        <External_Reference>
+            <!--
+            <doi>https://doi.org/10.1007/s11214-018-0570-x</doi>
+            -->
+            <reference_text>
+                Banfield, D., Rodriguez-Manfredi, J.A., Russell, C.T. et al. Space Sci Rev (2019) 215: 4. 
+                https://doi.org/10.1007/s11214-018-0570-x 
+            </reference_text>
+            <description>Published instrument paper</description>
+        </External_Reference>
+        <Source_Product_Internal>
+            <lidvid_reference>urn:nasa:pds:insight-ifg-mars:data-ifg-raw:ifg-raw-sol0212-20190702t010324-20190703t014257-2hz::2.0</lidvid_reference>
+            <reference_type>data_to_raw_source_product</reference_type>
+            <comment>Raw data used in processing</comment>
+        </Source_Product_Internal>
+    </Reference_List>
+    <File_Area_Observational>
+        <File>
+            <file_name>ifg_cal_SOL0212_20190702T010324_20190703T014257_gpt2Hz_v06.tab</file_name>
+            <creation_date_time>2020-07-01</creation_date_time>
+            <file_size unit="byte">2414952</file_size>
+            <records>17757</records>
+            <md5_checksum>49f6f0be2ad4850f12542fdf17d6ae43</md5_checksum>
+        </File>
+        <Header>
+            <offset unit="byte">0</offset>
+            <object_length unit="byte">136</object_length>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>First row of the file contains column names</description>
+        </Header>
+        <Table_Character>
+            <offset unit="byte">136</offset>
+            <records>17756</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <Record_Character>
+                <fields>11</fields>
+                <groups>0</groups>
+                <record_length unit="byte">136</record_length>  
+                <Field_Character>
+                    <name>SCET_UTC</name>
+                    <field_number>1</field_number>
+                    <field_location unit="byte">1</field_location>
+                    <data_type>ASCII_Date_Time_YMD</data_type>
+                    <field_length unit="byte">23</field_length>
+                    <description>Sample S/C event time UTC in YYYY-MM-DDThh:mm:ss.sss format</description>
+                </Field_Character>
+                <Field_Character>
+                    <name>MLST</name>
+                    <field_number>2</field_number>
+                    <field_location unit="byte">25</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">12</field_length>
+                    <field_format>%12.7f</field_format>
+                    <description>Mean local time represented as decimal SOLs with the format SSSS.xxxxxxx where SSSS is the SOL number and xxxxxxx is the fractional SOL.</description>
+                </Field_Character>
+                <Field_Character>
+                    <name>TLST</name>
+                    <field_number>3</field_number>
+                    <field_location unit="byte">38</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">12</field_length>
+                    <field_format>%12.7f</field_format>
+                    <description>Mars true local time represented as decimal hours (0 - 24)</description>
+                </Field_Character>
+                <Field_Character>
+                    <name>HR_Angle</name>
+                    <field_number>4</field_number>
+                    <field_location unit="byte">51</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>Degree</unit>
+                    <description>Solar hour angle in degrees (0-360) with 0 at noon and 90 at dusk.</description>
+                </Field_Character>                
+                <Field_Character>
+                    <name>Bx_SC</name>
+                    <field_number>5</field_number>
+                    <field_location unit="byte">61</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>
+                       Spacecraft mechanical coordinate system Bx component in nT.
+                       This frame is called the INSIGHT Lander Frame in SPICE and
+                       is described in the insight_v02.tf file as:
+                       FRAME_INSIGHT_LANDER = -189001, FRAME_-189001_NAME = INSIGHT_LANDER.
+                    </description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>By_SC</name>
+                    <field_number>6</field_number>
+                    <field_location unit="byte">71</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>Spacecraft mechanical coordinate system By component in nT</description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>Bz_SC</name>
+                    <field_number>7</field_number>
+                    <field_location unit="byte">81</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>Spacecraft mechanical coordinate system Bz component in nT</description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>B_north</name>
+                    <field_number>8</field_number>
+                    <field_location unit="byte">91</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>
+                       B_north (+X) field component [nT] in the Landed Local Vertical, Local Horizontal Coordinate System.
+                       In this frame, +Z points along local gravity vector, +X points towards local North, and +Y points east.
+                       This frame is called the INSIGHT_LL Frame in SPICE and is described in the insight_v02.tf file as:
+                       FRAME_INSIGHT_LL = -189003, FRAME_-189003_NAME = INSIGHT_LL. 
+                    </description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>B_east</name>
+                    <field_number>9</field_number>
+                    <field_location unit="byte">101</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>The B_east (+Y) field component [nT] in the INSIGHT_LL frame.</description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>B_down</name>
+                    <field_number>10</field_number>
+                    <field_location unit="byte">111</field_location>
+                    <data_type>ASCII_Real</data_type>
+                    <field_length unit="byte">9</field_length>
+                    <field_format>%9.3f</field_format>
+                    <unit>nT</unit>
+                    <description>The B_down (+Z) field component [nT] in the INSIGHT_LL frame.</description>
+                    <Special_Constants>
+                        <missing_constant>9999.999</missing_constant>
+                    </Special_Constants>
+                </Field_Character>
+                <Field_Character>
+                    <name>dqf</name>
+                    <field_number>11</field_number>
+                    <field_location unit="byte">121</field_location>
+                    <data_type>ASCII_String</data_type>
+                    <field_length unit="byte">14</field_length>
+                    <field_format>%14s</field_format>
+                    <description>Data quality flag - See the SIS for details of how to interpret flag values.</description>
+               </Field_Character>
+            </Record_Character>
+        </Table_Character>
+    </File_Area_Observational>
+</Product_Observational>
