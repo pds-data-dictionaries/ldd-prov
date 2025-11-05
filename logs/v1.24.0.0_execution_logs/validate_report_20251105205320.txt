@@ -3,13 +3,13 @@ PDS Validate Tool Report
 
 Configuration:
    Version     3.7.1
-   Date        2025-09-24T14:31:58Z
+   Date        2025-11-05T20:53:20Z
 
 Parameters:
    Targets                        [file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_no_supersedes_FAIL.xml]
    Rule Type                      pds4.label
-   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/6fe7d684be2e5cadbba8475fe0f8da46e0e6c0e7/1.24.0.0/PDS4_PROV_1O00_1210.xsd, file:/tmp/PDS4_PDS_1O00.xsd]
-   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/6fe7d684be2e5cadbba8475fe0f8da46e0e6c0e7/1.24.0.0/PDS4_PROV_1O00_1210.sch, file:/tmp/PDS4_PDS_1O00.sch]
+   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/45b99bf9b4b02c7706e4201dbd54ac200447dcf2/1.24.0.0/PDS4_PROV_1O00_1210.xsd, file:/tmp/PDS4_PDS_1O00.xsd]
+   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/45b99bf9b4b02c7706e4201dbd54ac200447dcf2/1.24.0.0/PDS4_PROV_1O00_1210.sch, file:/tmp/PDS4_PDS_1O00.sch]
    Severity Level                 WARNING
    Recurse Directories            true
    File Filters Used              [*.xml, *.XML]
@@ -48,5 +48,5 @@ Summary:
     1            error.label.schematron
 
 End of Report
-Completed execution in 5119 ms
+Completed execution in 4956 ms
 

@@ -1,0 +1,108 @@
+
+>>  INFO LDDTOOL Version: 16.0.0
+>>  INFO IM Version Id: 1.24.0.0
+>>  INFO IM Namespace Id: pds
+>>  INFO IM Label Version Id: 1.0
+>>  INFO Date: Wed Nov 05 20:52:51 UTC 2025
+>>  INFO PARENT_DIR: /tmp/lddtool-16.0.0/Data/
+
+>>> INFO Init:  - Config.Properties Namespace Id Found:prov
+>>> INFO Init:  - Config.Properties Namespace Id Using:prov
+>>> INFO Init:  - LDD Dictionary_Type is Discipline
+>>> INFO Attribute: <entity1> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <entity1> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <activity1> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <activity1> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <activity2> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <activity2> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <agent1> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <agent1> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <agent2> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <agent2> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <generatedEntity> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <generatedEntity> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <usedEntity> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <usedEntity> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <time> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <time> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <generation> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <generation> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <usage> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <usage> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <plan> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <plan> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <family_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <family_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <family_name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <given_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <given_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <given_name> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <orcid> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <orcid> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <rorid> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <rorid> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <attribute> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <attribute> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <value> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <value> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <value> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <value> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <value> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <value> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <value> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <title> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <title> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <local_id> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <local_id> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <description> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <description> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> WARNING Attribute: <generation> - This local attribute was not used in an Association.
+>>> WARNING Attribute: <plan> - This local attribute was not used in an Association.
+>>> WARNING Attribute: <usage> - This local attribute was not used in an Association.
+
+ -- LDDTool Execution Summary --
+     3 warning(s)
+     0 error(s)
+     0 fatal error(s)
+
+Input:
+
+     - IM Version: 1O00
+     - PDS4 Flag: true
+     - LDD Flag: true
+     - IM Version: true
+     - Export JSON Flag: true
+
+     - Ingest LDD(s): /home/runner/work/ldd-prov/ldd-prov/src/PDS4_PROV_IngestLDD.xml
+
+Output:
+
+     - ./PDS4_PROV_1O00_1210.xsd
+     - ./PDS4_PROV_1O00_1210.sch
+     - ./PDS4_PROV_1O00_1210.xml
+     - ./export/PDS4_PDS_1O00.JSON
+
+>>  INFO Exit(0)
