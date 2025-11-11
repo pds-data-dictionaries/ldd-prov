@@ -1,12 +1,13 @@
 
->>  INFO LDDTOOL Version: 15.3.0
->>  INFO IM Version Id: 1.24.0.0
+>>  INFO LDDTOOL Version: 16.0.0
+>>  INFO IM Version Id: 1.25.0.0
 >>  INFO IM Namespace Id: pds
 >>  INFO IM Label Version Id: 1.0
->>  INFO Date: Wed Sep 24 14:31:34 UTC 2025
->>  INFO PARENT_DIR: /tmp/lddtool-15.3.0/Data/
+>>  INFO Date: Wed Nov 05 20:52:31 UTC 2025
+>>  INFO PARENT_DIR: /tmp/lddtool-16.0.0/Data/
 
->>> INFO Init:  - Config.Properties Namespace Id Using:pds
+>>> INFO Init:  - Config.Properties Namespace Id Found:prov
+>>> INFO Init:  - Config.Properties Namespace Id Using:prov
 >>> INFO Init:  - LDD Dictionary_Type is Discipline
 >>> INFO Attribute: <entity1> - The default minimum characters provided by the attribute's data type is being overridden with 1
 >>> INFO Attribute: <entity1> - The default maximum characters provided by the attribute's data type is being overridden with 255
@@ -78,19 +79,18 @@
 >>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
 >>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
 >>> INFO Attribute: <description> - This local attribute has a duplicate in the PDS4 data dictionary.
->>> WARNING Init:  - Config.Properties Namespace Id Not Found:prov
 >>> WARNING Attribute: <generation> - This local attribute was not used in an Association.
 >>> WARNING Attribute: <plan> - This local attribute was not used in an Association.
 >>> WARNING Attribute: <usage> - This local attribute was not used in an Association.
 
  -- LDDTool Execution Summary --
-     4 warning(s)
+     3 warning(s)
      0 error(s)
      0 fatal error(s)
 
 Input:
 
-     - IM Version: 1O00
+     - IM Version: 1P00
      - PDS4 Flag: true
      - LDD Flag: true
      - Export JSON Flag: true
@@ -99,9 +99,9 @@ Input:
 
 Output:
 
-     - ./PDS4_PROV_1O00_1210.xsd
-     - ./PDS4_PROV_1O00_1210.sch
-     - ./PDS4_PROV_1O00_1210.xml
-     - ./export/PDS4_PDS_1O00.JSON
+     - ./PDS4_PROV_1P00_1210.xsd
+     - ./PDS4_PROV_1P00_1210.sch
+     - ./PDS4_PROV_1P00_1210.xml
+     - ./export/PDS4_PDS_1P00.JSON
 
 >>  INFO Exit(0)

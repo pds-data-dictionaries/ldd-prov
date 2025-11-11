@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 XML/Schema for Name Space Id:prov  Version:1.2.1.0 - Wed Nov 05 20:52:51 UTC 2025 -->
-  <!-- Generated from the PDS4 Information Model Version 1.24.0.0 - System Build 15.1 -->
+  <!-- PDS4 XML/Schema for Name Space Id:prov  Version:1.2.1.0 - Wed Nov 05 20:52:31 UTC 2025 -->
+  <!-- Generated from the PDS4 Information Model Version 1.25.0.0 - System Build 16.0	 -->
   <!-- *** This PDS4 product schema is an operational deliverable. *** -->
   <!--                                                                           -->
   <!--               Dictionary Stack                                            -->
-  <!-- 1.24.0.0 - pds: - Common Dictionary                                       -->
+  <!-- 1.25.0.0 - pds: - Common Dictionary                                       -->
   <!-- 1.2.1.0 - prov: - Provenance                                              -->
   <!--                                                                           -->
   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -15,7 +15,7 @@
     attributeFormDefault="unqualified"
     version="1.2.1.0">
  
-    <xs:import namespace="http://pds.nasa.gov/pds4/pds/v1" schemaLocation="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd"/>
+    <xs:import namespace="http://pds.nasa.gov/pds4/pds/v1" schemaLocation="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd"/>
  
   <xs:annotation>
     <xs:documentation>
