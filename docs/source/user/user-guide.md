@@ -10,18 +10,24 @@ PDS4 Provenance Discipline Data Dictionary User's Guide
 # Overview of the Provenance Discipline Data Dictionary  
 The Provenance Discipline Data Dictionary contains classes and attributes specific to the Provenance discipline.  
 Steward: Steve Hughes, Engineering Node, john.s.hughes@jpl.nasa.gov  
-  
+
 # Document Outline  
-1. [How to Include the Provenance Discipline Data Dictionary in a PDS4 Label](#how-to-include-the-Provenance-Discipline-data-dictionary-in-a-pds4-label)  
-2. [Organization of Classes and Attributes](#organization-of-classes-and-attributes)  
+1. [How to Extend the Provenance Discipline Data Dictionary](#how-to-extend-the-provenance-discipline-data-dictionary)  
+2. [How to Include the Provenance Discipline Data Dictionary in a PDS4 Label](#how-to-include-the-Provenance-Discipline-data-dictionary-in-a-pds4-label)  
+3. [Organization of Classes and Attributes](#organization-of-classes-and-attributes)  
     1. [Class Organization](#class-organization)  
     2. [Attributes by Class](#attributes-by-class)  
-3. [Definitions](#definitions)  
+4. [Definitions](#definitions)  
     1. [Classes (in alphabetical order)](#classes-in-alphabetical-order)  
     2. [Attributes (in alphabetical order)](#attributes-in-alphabetical-order)  
-4. [Examples](#examples)  
-5. [Edit History](#edit-history)  
+5. [Examples](#examples)  
+6. [Edit History](#edit-history)  
   
+# How to Extend the Provenance Discipline Data Dictionary
+The PDS4 Provenance LDD is derived from the PROV Data Model (PROV-DM), a W3C Recommendation dated 30 April 2013. It was intentionally designed as a general-purpose provenance framework capable of supporting a broad range of PDS use cases—for example, the calibration provenance of a Voyager image was among the earliest scenarios considered.
+
+As common or recurring use cases are identified, additional specialized classes are introduced to address them. The PDS4 Logical Identifier (LID) supersession use case is the first such example. The corresponding class, SupersededLID, has now been added and is available in the schema.  
+    
 # How to Include the Provenance Discipline Data Dictionary in a PDS4 Label  
 The dictionary consists of a set of files with names in the form PDS4_PROV_xxxx_yyyy.ext, where  
 - xxxx = the PDS4 Information Model version, e.g. 1O00  
