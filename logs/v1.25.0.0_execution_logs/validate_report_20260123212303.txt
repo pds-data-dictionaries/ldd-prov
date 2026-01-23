@@ -1,0 +1,54 @@
+
+PDS Validate Tool Report
+
+Configuration:
+   Version      4.0.8
+   Date         2026-01-23T21:23:03Z
+   CLI args     -R pds4.label --skip-content-validation -x /home/runner/work/ldd-prov/ldd-prov/build/development/e92016940d9cb0fba8bee8ee5803308a68e34869/1.25.0.0/PDS4_PROV_1P00_1210.xsd /tmp/PDS4_PDS_1P00.xsd -S /home/runner/work/ldd-prov/ldd-prov/build/development/e92016940d9cb0fba8bee8ee5803308a68e34869/1.25.0.0/PDS4_PROV_1P00_1210.sch /tmp/PDS4_PDS_1P00.sch -t /home/runner/work/ldd-prov/ldd-prov/test//test_case_ccb21_bad_values_FAIL.xml
+
+Parameters:
+   Targets                        [file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_bad_values_FAIL.xml]
+   Rule Type                      pds4.label
+   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/e92016940d9cb0fba8bee8ee5803308a68e34869/1.25.0.0/PDS4_PROV_1P00_1210.xsd, file:/tmp/PDS4_PDS_1P00.xsd]
+   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/e92016940d9cb0fba8bee8ee5803308a68e34869/1.25.0.0/PDS4_PROV_1P00_1210.sch, file:/tmp/PDS4_PDS_1P00.sch]
+   Severity Level                 WARNING
+   Recurse Directories            true
+   File Filters Used              [*.xml, *.XML]
+   Data Content Validation        off
+   Product Level Validation       on
+   Max Errors                     100000
+   Registered Contexts File       /tmp/validate-4.0.8/resources/registered_context_products.json
+
+
+
+Product Level Validation Results
+
+  FAIL: file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_bad_values_FAIL.xml (urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz::2.0)
+      ERROR  [error.label.schematron]   line 122, 42: When prov:attribute is 'Supersedes', prov:value must start with 'urn:'.
+      ERROR  [error.label.schematron]   line 127, 42: When prov:attribute is 'Reason', prov:value must be one of these values: 'Replacement', 'Duplication', 'Merged', 'Obsolescence', 'Policy'.
+        1 product validation(s) completed
+
+Summary:
+
+  1 product(s)
+  2 error(s)
+  0 warning(s)
+
+  Product Validation Summary:
+    0          product(s) passed
+    1          product(s) failed
+    0          product(s) skipped
+    1          product(s) total
+
+  Referential Integrity Check Summary:
+    0          check(s) passed
+    0          check(s) failed
+    0          check(s) skipped
+    0          check(s) total
+
+  Message Types:
+    2            error.label.schematron
+
+End of Report
+Completed execution in 4736 ms
+
