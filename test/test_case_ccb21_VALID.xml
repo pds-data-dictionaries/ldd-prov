@@ -127,7 +127,7 @@
                         <prov:value>Duplication</prov:value>
                     </prov:Attributes>
                 </prov:Entity>
-            </prov:Provenance>
+            </prov:SupersededLID>
         </Discipline_Area>
     </Observation_Area>
     <Reference_List>
