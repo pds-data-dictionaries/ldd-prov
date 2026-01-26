@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:prov  Version:1.2.1.0 - Wed Nov 05 20:52:51 UTC 2025 -->
+  <!-- PDS4 Schematron for Name Space Id:prov  Version:1.2.2.0 - Fri Jan 23 21:30:28 UTC 2026 -->
   <!-- Generated from the PDS4 Information Model Version 1.24.0.0 - System Build 15.1 -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
@@ -28,9 +28,9 @@
       <sch:assert test="$num_reasons > 0">
         <title>//prov:Attributes/Rule</title>
         There must be at least one instance where prov:attribute = 'Reason'.</sch:assert>
-      <sch:assert test="not(prov:attribute = 'Supersedes') or (starts-with(prov:value, 'urn:nasa:pds'))">
+      <sch:assert test="not(prov:attribute = 'Supersedes') or (starts-with(prov:value, 'urn:'))">
         <title>//prov:Attributes/Rule</title>
-        When prov:attribute is 'Supersedes', prov:value must start with 'urn:nasa:pds'.</sch:assert>
+        When prov:attribute is 'Supersedes', prov:value must start with 'urn:'.</sch:assert>
       <sch:assert test="not(prov:attribute = 'Reason') or (prov:value = ('Replacement', 'Duplication', 'Merged', 'Obsolescence', 'Policy'))">
         <title>//prov:Attributes/Rule</title>
         When prov:attribute is 'Reason', prov:value must be one of these values: 'Replacement', 'Duplication', 'Merged', 'Obsolescence', 'Policy'.</sch:assert>

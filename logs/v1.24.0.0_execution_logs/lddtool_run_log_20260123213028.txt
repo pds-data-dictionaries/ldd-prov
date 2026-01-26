@@ -3,7 +3,7 @@
 >>  INFO IM Version Id: 1.24.0.0
 >>  INFO IM Namespace Id: pds
 >>  INFO IM Label Version Id: 1.0
->>  INFO Date: Wed Nov 05 20:52:51 UTC 2025
+>>  INFO Date: Fri Jan 23 21:30:28 UTC 2026
 >>  INFO PARENT_DIR: /tmp/lddtool-16.0.0/Data/
 
 >>> INFO Init:  - Config.Properties Namespace Id Found:prov
@@ -100,9 +100,9 @@ Input:
 
 Output:
 
-     - ./PDS4_PROV_1O00_1210.xsd
-     - ./PDS4_PROV_1O00_1210.sch
-     - ./PDS4_PROV_1O00_1210.xml
+     - ./PDS4_PROV_1O00_1220.xsd
+     - ./PDS4_PROV_1O00_1220.sch
+     - ./PDS4_PROV_1O00_1220.xml
      - ./export/PDS4_PDS_1O00.JSON
 
 >>  INFO Exit(0)

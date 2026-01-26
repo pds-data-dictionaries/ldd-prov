@@ -1,0 +1,53 @@
+
+PDS Validate Tool Report
+
+Configuration:
+   Version      4.0.8
+   Date         2026-01-23T21:30:49Z
+   CLI args     -R pds4.label --skip-content-validation -x /home/runner/work/ldd-prov/ldd-prov/build/development/5f076d0bdffd8e13c758d43ca5af0d192b94cbb0/1.25.0.0/PDS4_PROV_1P00_1220.xsd /tmp/PDS4_PDS_1P00.xsd -S /home/runner/work/ldd-prov/ldd-prov/build/development/5f076d0bdffd8e13c758d43ca5af0d192b94cbb0/1.25.0.0/PDS4_PROV_1P00_1220.sch /tmp/PDS4_PDS_1P00.sch -t /home/runner/work/ldd-prov/ldd-prov/test//test_case_ccb21_no_Reason_FAIL.xml
+
+Parameters:
+   Targets                        [file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_no_Reason_FAIL.xml]
+   Rule Type                      pds4.label
+   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/5f076d0bdffd8e13c758d43ca5af0d192b94cbb0/1.25.0.0/PDS4_PROV_1P00_1220.xsd, file:/tmp/PDS4_PDS_1P00.xsd]
+   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/5f076d0bdffd8e13c758d43ca5af0d192b94cbb0/1.25.0.0/PDS4_PROV_1P00_1220.sch, file:/tmp/PDS4_PDS_1P00.sch]
+   Severity Level                 WARNING
+   Recurse Directories            true
+   File Filters Used              [*.xml, *.XML]
+   Data Content Validation        off
+   Product Level Validation       on
+   Max Errors                     100000
+   Registered Contexts File       /tmp/validate-4.0.8/resources/registered_context_products.json
+
+
+
+Product Level Validation Results
+
+  FAIL: file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_no_Reason_FAIL.xml (urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz::2.0)
+      ERROR  [error.label.schematron]   line 122, 42: There must be at least one instance where prov:attribute = 'Reason'.
+        1 product validation(s) completed
+
+Summary:
+
+  1 product(s)
+  1 error(s)
+  0 warning(s)
+
+  Product Validation Summary:
+    0          product(s) passed
+    1          product(s) failed
+    0          product(s) skipped
+    1          product(s) total
+
+  Referential Integrity Check Summary:
+    0          check(s) passed
+    0          check(s) failed
+    0          check(s) skipped
+    0          check(s) total
+
+  Message Types:
+    1            error.label.schematron
+
+End of Report
+Completed execution in 4961 ms
+
