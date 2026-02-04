@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch"
      schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="PDS4_PROV_1O00_1200.sch" 
+<?xml-model href="PDS4_PROV_1O00_1220.sch" 
      schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <Product_Observational
@@ -10,7 +10,7 @@
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="
      http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd
-     http://pds.nasa.gov/pds4/prov/v1 PDS4_PROV_1O00_1200.xsd">
+     http://pds.nasa.gov/pds4/prov/v1 PDS4_PROV_1O00_1220.xsd">
  
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</logical_identifier>  
@@ -110,25 +110,24 @@
         <Mission_Area>
         </Mission_Area>
         <Discipline_Area>
-            <prov:Provenance>
+            <prov:SupersededLID>
                 <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
+                <prov:local_id>Superseded LID</prov:local_id>
                 <prov:description>Product LID change due to change in product start/stop times (due to reprocessing with a new SCLK kernel).</prov:description>
-                <prov:Provenance_Entities>
-                    <prov:Entity>
-                        <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
-                        <prov:local_id>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:local_id>
-                        <prov:description>New LID supersedes old LID.</prov:description>
-                        <prov:Attributes>
-                            <prov:attribute>Supersedes</prov:attribute>
-                            <prov:value>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t011217-20190703t015130-gpt2hz</prov:value>
-                        </prov:Attributes>
-                        <prov:Attributes>
-                            <prov:attribute>Reason</prov:attribute>
-                            <prov:value>Duplication</prov:value>
-                        </prov:Attributes>
-                    </prov:Entity>
-                </prov:Provenance_Entities>
-            </prov:Provenance>
+                <prov:Entity>
+                    <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
+                    <prov:local_id>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:local_id>
+                    <prov:description>New LID supersedes old LID.</prov:description>
+                    <prov:Attributes>
+                        <prov:attribute>Supersedes</prov:attribute>
+                        <prov:value>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t011217-20190703t015130-gpt2hz</prov:value>
+                    </prov:Attributes>
+                    <prov:Attributes>
+                        <prov:attribute>Reason</prov:attribute>
+                        <prov:value>Duplication</prov:value>
+                    </prov:Attributes>
+                </prov:Entity>
+            </prov:SupersededLID>
         </Discipline_Area>
     </Observation_Area>
     <Reference_List>

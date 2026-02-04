@@ -5,12 +5,12 @@
      schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <Product_Observational
-    xmlns="http://pds.nasa.gov/pds4/pds/v1"
-    xmlns:prov="http://pds.nasa.gov/pds4/prov/v1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
-    http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd
-    http://pds.nasa.gov/pds4/prov/v1 PDS4_PROV_1O00_1220.xsd">
+     xmlns="http://pds.nasa.gov/pds4/pds/v1"
+     xmlns:prov="http://pds.nasa.gov/pds4/prov/v1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="
+     http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd
+     http://pds.nasa.gov/pds4/prov/v1 PDS4_PROV_1O00_1220.xsd">
  
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</logical_identifier>  
@@ -118,17 +118,14 @@
                     <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
                     <prov:local_id>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:local_id>
                     <prov:description>New LID supersedes old LID.</prov:description>
-                    <!-- at least 1 instance required -->
                     <prov:Attributes>
                         <prov:attribute>Supersedes</prov:attribute>
-                        <prov:value>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t011217-20190703t015130-gpt2hz</prov:value>
+                        <prov:value>urn:xxx:yyy:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t011217-20190703t015130-gpt2hz</prov:value>
                     </prov:Attributes>
-                    <!-- at least one instance required
                     <prov:Attributes>
                         <prov:attribute>Reason</prov:attribute>
                         <prov:value>Duplication</prov:value>
                     </prov:Attributes>
-                    -->
                 </prov:Entity>
             </prov:SupersededLID>
         </Discipline_Area>
