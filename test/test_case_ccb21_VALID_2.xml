@@ -7,7 +7,7 @@
         <logical_identifier>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</logical_identifier>  
         <version_id>2.0</version_id>                                                                                                  
         <title>2019-07-02T01:03 to 2019-07-03T01:42 IFG Magnetometer Mars Filtered 0.2Hz Ground Generated Calibrated Data</title>
-        <[IM_VERSION]>1.24.0.0</[IM_VERSION]>
+        <information_model_version>[IM_VERSION]</information_model_version
         <product_class>Product_Observational</product_class>
         <Citation_Information>
             <!--
