@@ -1,0 +1,58 @@
+
+PDS Validate Tool Report
+
+Configuration:
+   Version      4.0.8
+   Date         2026-02-14T00:55:49Z
+   CLI args     -R pds4.label --skip-content-validation -x /home/runner/work/ldd-prov/ldd-prov/build/development/2263977e1ee27b9073e06d3953f0b1873371d4df/1.24.0.0/PDS4_PROV_1O00_1220.xsd /tmp/PDS4_PDS_1O00.xsd -S /home/runner/work/ldd-prov/ldd-prov/build/development/2263977e1ee27b9073e06d3953f0b1873371d4df/1.24.0.0/PDS4_PROV_1O00_1220.sch /tmp/PDS4_PDS_1O00.sch -t /home/runner/work/ldd-prov/ldd-prov/test//test_case_ccb21_bad_values_FAIL.xml
+
+Parameters:
+   Targets                        [file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_bad_values_FAIL.xml]
+   Rule Type                      pds4.label
+   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/2263977e1ee27b9073e06d3953f0b1873371d4df/1.24.0.0/PDS4_PROV_1O00_1220.xsd, file:/tmp/PDS4_PDS_1O00.xsd]
+   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/2263977e1ee27b9073e06d3953f0b1873371d4df/1.24.0.0/PDS4_PROV_1O00_1220.sch, file:/tmp/PDS4_PDS_1O00.sch]
+   Severity Level                 WARNING
+   Recurse Directories            true
+   File Filters Used              [*.xml, *.XML]
+   Data Content Validation        off
+   Product Level Validation       on
+   Max Errors                     100000
+   Registered Contexts File       /tmp/validate-4.0.8/resources/registered_context_products.json
+
+
+
+Product Level Validation Results
+
+  FAIL: file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_bad_values_FAIL.xml (urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz::2.0)
+      WARNING  [warning.label.schema]   Cannot check versioning because no Schema given.
+      ERROR  [error.label.schematron]   line 112, 38: When prov:attribute is 'Supersedes', prov:value must start with 'urn:'.
+      ERROR  [error.label.schematron]   line 117, 38: When prov:attribute is 'Reason', prov:value must be one of these values: 'Replacement', 'Duplication', 'Merged', 'Obsolescence', 'Policy'.
+      WARNING  [warning.label.missing_schematron_spec]   No schematron specification found in the label.
+        1 product validation(s) completed
+
+Summary:
+
+  1 product(s)
+  2 error(s)
+  2 warning(s)
+
+  Product Validation Summary:
+    0          product(s) passed
+    1          product(s) failed
+    0          product(s) skipped
+    1          product(s) total
+
+  Referential Integrity Check Summary:
+    0          check(s) passed
+    0          check(s) failed
+    0          check(s) skipped
+    0          check(s) total
+
+  Message Types:
+    2            error.label.schematron
+    1            warning.label.missing_schematron_spec
+    1            warning.label.schema
+
+End of Report
+Completed execution in 4738 ms
+
