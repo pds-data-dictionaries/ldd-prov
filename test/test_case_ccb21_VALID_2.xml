@@ -107,7 +107,6 @@
                 <prov:description>Product LID change due to change in product start/stop times (due to reprocessing with a new SCLK kernel).</prov:description>
                 <prov:Entity>
                     <prov:title>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:title>
-                    <prov:local_id>urn:nasa:pds:insight-ifg-mars:data-ifg-calibrated:ifg-cal-sol0212-20190702t010324-20190703t014257-gpt2hz</prov:local_id>
                     <prov:description>New LID supersedes old LID.</prov:description>
                     <prov:Attributes>
                         <prov:attribute>Supersedes</prov:attribute>
