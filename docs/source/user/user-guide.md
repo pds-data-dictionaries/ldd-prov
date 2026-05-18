@@ -337,7 +337,7 @@ An activity is something that occurs over a period of time and acts upon or with
 - Maximum occurrences: unbounded  
   
 ### Affiliation  
-The Affiliation class describes  
+The Affiliation class describes the organizational affiliation of an agent.  
 - [go to attribute list](#affiliation-attribute-list)  
 - Minimum occurrences: 0  
 - Maximum occurrences: 1  
@@ -365,25 +365,25 @@ An entity is a physical, digital, conceptual, or other kind of thing with some f
   - Maximum occurrences: 1  
   
 ### External_Reference  
-The External_Reference class describes  
+The External_Reference class describes an external reference associated with an agent.  
 - [go to attribute list](#external_reference-attribute-list)  
 - Minimum occurrences: 0  
 - Maximum occurrences: unbounded  
   
 ### Organization  
-The Organization class describes  
+The Organization class describes an organization that serves as an agent in a provenance record.  
 - [go to attribute list](#organization-attribute-list)  
 - Minimum occurrences: 1  
 - Maximum occurrences: 1  
   
 ### Person  
-The Person class describes  
+The Person class describes a person who serves as an agent in a provenance record.  
 - [go to attribute list](#person-attribute-list)  
 - Minimum occurrences: 1  
 - Maximum occurrences: 1  
   
 ### Provenance  
-This Provenance class is an implementation of the WC3 Provenance Model pattern ....  
+This Provenance class is an implementation of the W3C PROV-DM (Provenance Data Model) standard.  
 - [go to attribute list](#provenance-attribute-list)  
 - Minimum occurrences: 1  
 - Maximum occurrences: 1  
@@ -425,7 +425,7 @@ The Relationship class defines a relationship.
 - Maximum occurrences: unbounded  
   
 ### Software  
-The Software class describes ...  
+The Software class describes software that serves as an agent in a provenance record.  
 - [go to attribute list](#software-attribute-list)  
 - Minimum occurrences: 1  
 - Maximum occurrences: 1  
@@ -557,7 +557,7 @@ attribute: the attribute component of an OPTIONAL set (attrs) of attribute-value
 - Maximum occurrences: 1  
   
 ### *description*  
-The attribute description provides  
+The attribute description provides a human-readable description of the element.  
 - PDS4 data type: ASCII_Short_String_Collapsed  
 - Valid values: N/A  
 - Minimum Length: 1  
@@ -633,7 +633,7 @@ The attribute given_name.
 - Maximum occurrences: 1  
   
 ### *local_id*  
-The attribute local_identifier provides  
+The attribute local_id provides a locally unique identifier for the element within the label.  
 - PDS4 data type: ASCII_Short_String_Collapsed  
 - Valid values: N/A  
 - Minimum Length: 1  
@@ -699,7 +699,7 @@ time: an OPTIONAL "usage time" (t), the time at which the entity started to be u
 - Maximum occurrences: 1  
   
 ### *title*  
-The attribute title provides  
+The attribute title provides a human-readable label for the element.  
 - PDS4 data type: ASCII_Short_String_Collapsed  
 - Valid values: N/A  
 - Minimum Length: 1  
