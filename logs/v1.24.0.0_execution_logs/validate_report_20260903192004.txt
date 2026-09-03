@@ -2,22 +2,22 @@
 PDS Validate Tool Report
 
 Configuration:
-   Version      4.1.0
-   Date         2026-05-28T22:52:21Z
-   CLI args     -R pds4.label --skip-content-validation -x /home/runner/work/ldd-prov/ldd-prov/build/development/49a13ed3d39ee1320d41cf63097087d27878c9e5/1.26.0.0/PDS4_PROV_1Q00_1220.xsd /tmp/PDS4_PDS_1Q00.xsd -S /home/runner/work/ldd-prov/ldd-prov/build/development/49a13ed3d39ee1320d41cf63097087d27878c9e5/1.26.0.0/PDS4_PROV_1Q00_1220.sch /tmp/PDS4_PDS_1Q00.sch -t /home/runner/work/ldd-prov/ldd-prov/test//test_case_ccb21_no_Reason_FAIL.xml
+   Version      4.2.0
+   Date         2026-09-03T19:20:05Z
+   CLI args     -R pds4.label --skip-content-validation -x /home/runner/work/ldd-prov/ldd-prov/build/development/613af549e770cee989a634b8ec5bb9fee556ed14/1.24.0.0/PDS4_PROV_1O00_1220.xsd /tmp/PDS4_PDS_1O00.xsd -S /home/runner/work/ldd-prov/ldd-prov/build/development/613af549e770cee989a634b8ec5bb9fee556ed14/1.24.0.0/PDS4_PROV_1O00_1220.sch /tmp/PDS4_PDS_1O00.sch -t /home/runner/work/ldd-prov/ldd-prov/test//test_case_ccb21_no_Reason_FAIL.xml
 
 Parameters:
    Targets                        [file:/home/runner/work/ldd-prov/ldd-prov/test/test_case_ccb21_no_Reason_FAIL.xml]
    Rule Type                      pds4.label
-   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/49a13ed3d39ee1320d41cf63097087d27878c9e5/1.26.0.0/PDS4_PROV_1Q00_1220.xsd, file:/tmp/PDS4_PDS_1Q00.xsd]
-   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/49a13ed3d39ee1320d41cf63097087d27878c9e5/1.26.0.0/PDS4_PROV_1Q00_1220.sch, file:/tmp/PDS4_PDS_1Q00.sch]
+   User Specified Schemas         [file:/home/runner/work/ldd-prov/ldd-prov/build/development/613af549e770cee989a634b8ec5bb9fee556ed14/1.24.0.0/PDS4_PROV_1O00_1220.xsd, file:/tmp/PDS4_PDS_1O00.xsd]
+   User Specified Schematrons     [file:/home/runner/work/ldd-prov/ldd-prov/build/development/613af549e770cee989a634b8ec5bb9fee556ed14/1.24.0.0/PDS4_PROV_1O00_1220.sch, file:/tmp/PDS4_PDS_1O00.sch]
    Severity Level                 WARNING
    Recurse Directories            true
    File Filters Used              [*.xml, *.XML]
    Data Content Validation        off
    Product Level Validation       on
    Max Errors                     100000
-   Registered Contexts File       /tmp/validate-4.1.0/resources/registered_context_products.json
+   Registered Contexts File       /tmp/validate-4.2.0/resources/registered_context_products.json
 
 
 
@@ -53,5 +53,5 @@ Summary:
     1            warning.label.schema
 
 End of Report
-Completed execution in 4886 ms
+Completed execution in 4269 ms
 
