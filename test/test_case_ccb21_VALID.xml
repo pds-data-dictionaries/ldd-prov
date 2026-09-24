@@ -10,11 +10,10 @@
         <title>2019-07-02T01:03 to 2019-07-03T01:42 IFG Magnetometer Mars Filtered 0.2Hz Ground Generated Calibrated Data</title>
         <information_model_version>[IM_VERSION]</information_model_version>
         <product_class>Product_Observational</product_class>
-        <!--<Citation_Information>
-            <!-\-
-            <author_list>Russell, C. T.; Joy, S. P.</author_list>
+        <Citation_Information>           
+            <!--<author_list>Russell, C. T.; Joy, S. P.</author_list>
             <editor_list>Hughes, J.S. - Update Test Case </editor_list>
-            -\->
+            -->
             <publication_year>2020</publication_year>
             <keyword>mag</keyword>
             <description>
@@ -23,7 +22,7 @@
                 on the surface of Mars. These data were created on the ground
                 by FIR filtering and decimating 2 Hz calibrated data. 
             </description>
-            <List_Author>
+            <!--<List_Author>
                 <Person>
                     <display_full_name>Louis A. Frank</display_full_name>
                     <given_name>Louis A.</given_name>
@@ -37,8 +36,8 @@
                     <family_name>Ackerson</family_name>
                     <sequence_number>2</sequence_number>                                           
                 </Person>
-            </List_Author>            
-        </Citation_Information>-->
+            </List_Author>-->            
+        </Citation_Information>
         <Modification_History>
             <Modification_Detail>
                 <modification_date>2020-07-01</modification_date>
