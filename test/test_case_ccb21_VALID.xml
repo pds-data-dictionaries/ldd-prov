@@ -10,11 +10,9 @@
         <title>2019-07-02T01:03 to 2019-07-03T01:42 IFG Magnetometer Mars Filtered 0.2Hz Ground Generated Calibrated Data</title>
         <information_model_version>[IM_VERSION]</information_model_version>
         <product_class>Product_Observational</product_class>
-        <Citation_Information>
-            <!--
+        <Citation_Information>           
             <author_list>Russell, C. T.; Joy, S. P.</author_list>
-            <editor_list>Hughes, J.S. - Update Test Case </editor_list>
-            -->
+            <editor_list>Hughes, J.S.</editor_list>
             <publication_year>2020</publication_year>
             <keyword>mag</keyword>
             <description>
@@ -22,22 +20,7 @@
                 field data from 2019-07-02T01:03 to 2019-07-03T01:42 acquired 
                 on the surface of Mars. These data were created on the ground
                 by FIR filtering and decimating 2 Hz calibrated data. 
-            </description>
-            <List_Author>
-                <Person>
-                    <display_full_name>Louis A. Frank</display_full_name>
-                    <given_name>Louis A.</given_name>
-                    <family_name>Frank</family_name>
-                    <person_orcid>http://orcid.org/0000-0001-5109-0000</person_orcid>
-                    <sequence_number>1</sequence_number>                                           
-                </Person>
-                <Person>
-                    <display_full_name>Kent L. Ackerson</display_full_name>
-                    <given_name>Kent L.</given_name>
-                    <family_name>Ackerson</family_name>
-                    <sequence_number>2</sequence_number>                                           
-                </Person>
-            </List_Author>            
+            </description>          
         </Citation_Information>
         <Modification_History>
             <Modification_Detail>
