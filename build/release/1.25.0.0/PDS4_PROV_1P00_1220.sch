@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:prov  Version:1.2.2.0 - Thu May 28 22:52:01 UTC 2026 -->
+  <!-- PDS4 Schematron for Name Space Id:prov  Version:1.2.2.0 - Thu Nov 19 22:36:39 UTC 2026 -->
   <!-- Generated from the PDS4 Information Model Version 1.25.0.0 - System Build 16.0	 -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
